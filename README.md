@@ -2,7 +2,7 @@
 
 Eval-first warehouse ops agent for [Clearbay](https://clearbay.onrender.com). Built as a **forward-deployed** slice: the customer already has an MCP tool layer; this repo is what you bring on-site — a bound agent, a 40-case harness, and traces.
 
-**Live:** (set after Render) · **API under test:** [clearbay.onrender.com](https://clearbay.onrender.com)
+**Live:** [dockline.onrender.com](https://dockline.onrender.com) · **API under test:** [clearbay.onrender.com](https://clearbay.onrender.com)
 
 This is an original demo. It is **not** affiliated with any employer or lab.
 
