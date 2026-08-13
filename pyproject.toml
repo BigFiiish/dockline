@@ -1,0 +1,23 @@
+[project]
+name = "dockline"
+version = "0.1.0"
+description = "Eval-first warehouse ops agent that only acts through Clearbay MCP tools."
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.115.0",
+  "httpx>=0.28.0",
+  "uvicorn[standard]>=0.34.0",
+]
+
+[project.scripts]
+dockline = "dockline.web:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["dockline*"]
+
+[tool.setuptools.package-data]
+dockline = ["static/*"]

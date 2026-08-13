@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: dockline
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: CLEARBAY_BASE_URL
+        value: https://clearbay.onrender.com
+      - key: PYTHONUNBUFFERED
+        value: "1"

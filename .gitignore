@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+*.egg-info/
+traces/
+.pytest_cache/
+.env
+.tools/last-deploy.json
